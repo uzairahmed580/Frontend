@@ -1,0 +1,480 @@
+/* html {
+    font-family: 'Abhaya Libre', serif;
+} */
+
+:root {
+    --darkblue: #01243A;
+    --gray: #81A5BF;
+    --aqua: #2A7C88;
+    --yellow: #FFCA00;
+    --lightblue: #E6EEF4;
+    --blue: #C0D5E4;
+    --mediumblue: #A2C3DA;
+    --white: #ffffff;
+    --darkgray: #6c757d
+}
+
+.background-darkgray {
+    background: var(--darkgray);
+}
+
+.color-darkgray {
+    color: var(--darkgray);
+}
+
+.background-blue {
+    background: var(--blue);
+}
+
+.color-blue {
+    color: var(--blue);
+}
+
+.background-mediumblue {
+    background: var(--mediumblue);
+}
+
+.color-mediumblue {
+    color: var(--mediumblue);
+}
+
+.background-gray {
+    background: var(--gray);
+}
+
+.color-gray {
+    color: var(--gray);
+}
+
+.background-aqua {
+    background: var(--aqua);
+}
+
+.color-aqua {
+    color: var(--aqua);
+}
+
+.background-darkblue {
+    background: var(--darkblue);
+    color: white;
+}
+
+.color-darkblue {
+    color: var(--darkblue);
+}
+
+.background-lightblue {
+    background: var(--lightblue);
+}
+
+.color-lightblue {
+    color: var(--lightblue);
+}
+
+.background-yellow {
+    background: var(--yellow);
+}
+
+.color-yellow {
+    color: var(--yellow);
+}
+
+.background-white {
+    background: var(--white);
+}
+
+.color-white {
+    color: var(--white);
+}
+
+.italic {
+    font-style: italic;
+}
+
+.max-w-400 {
+    max-width: 400px;
+}
+
+.max-h-400 {
+    max-height: 400px;
+}
+
+.max-w-350 {
+    max-width: 350px;
+}
+
+.max-h-350 {
+    max-height: 350px;
+}
+
+.actex-carousel {
+    display: flex;
+    flex-direction: row;
+}
+
+.actex-carousel .carousel-control-left,
+.actex-carousel .carousel-control-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 16px 0 16px;
+    color: #fff;
+    text-align: center;
+    background: none;
+    border: 0;
+    opacity: 0.5;
+    transition: opacity 0.15s ease;
+    height: 100%;
+}
+
+.actex-carousel .carousel-item {
+    height: 100px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.actex-nav {
+    background-color: var(--darkblue);
+    color: white;
+    opacity: .88;
+    z-index: 100;
+}
+
+.actex-nav a {
+    color: white;
+    padding: 10px;
+    opacity: 1.0;
+    text-decoration: none;
+}
+
+.actex-nav a:hover {
+    opacity: 0.8;
+}
+
+.actex-btn {
+    border-radius: 20px;
+    border: none;
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+    padding: 17px 10px 16px 10px;
+    text-decoration: none;
+}
+
+.actex-btn:hover {
+    filter: brightness(110%);
+}
+
+.actex-btn.black {
+    color: black;
+}
+
+.actex-btn.background-yellow {
+    background: var(--yellow);
+    color: black;
+}
+
+.actex-btn.background-aqua {
+    background: var(--aqua);
+    color: black;
+}
+
+.actex-btn.background-darkblue {
+    background: var(--darkblue);
+    color: white;
+}
+
+.actex-btn:hover.background-darkblue {
+    filter: brightness(150%);
+}
+
+.actex-btn.background-gray {
+    background: var(--gray);
+    color: black;
+}
+
+.actex-btn.background-lightblue {
+    background: var(--lightblue);
+    color: black;
+}
+
+svg.overlap {
+    position: absolute;
+    bottom: 0;
+}
+
+button.white,
+.small-text.white,
+.medium-text.white,
+.large-text.white {
+    color: white;
+}
+
+.small-text.black,
+.medium-text.black,
+.large-text.black {
+    color: black;
+}
+
+.exam-btn {
+    border-radius: 13px;
+    background: white;
+    color: black;
+}
+
+.exam-btn:hover {
+    border-radius: 13px;
+    background: var(--aqua);
+    color: white;
+}
+
+a:hover .exam-btn>svg>path {
+    fill: white;
+}
+
+#examModal>div.modal-dialog {
+    position: absolute;
+}
+
+.cart {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background: white;
+    width: 400px;
+    max-height: 400px;
+    border: 1px solid var(--darkblue);
+    overflow-y: scroll;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    z-index: 100;
+}
+
+#cartButton {
+    background: var(--darkblue);
+}
+
+#cartButton.active,
+#cartButton:hover {
+    background: white;
+    opacity: 1.0;
+}
+
+#cartButton.active svg>path,
+#cartButton:hover svg>path {
+    fill: var(--darkblue);
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20vh);
+    transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+    will-change: opacity, visibility;
+}
+
+.fade-in.is-visible {
+    opacity: 1;
+    transform: none;
+}
+
+.fade-in-top {
+    -moz-animation: fade-in 2s;
+    /* Firefox */
+    -webkit-animation: fade-in 2s;
+    /* Safari and Chrome */
+    -o-animation: fade-in 2s;
+    animation: fade-in 2s;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0.0;
+    }
+
+    to {
+        opacity: 1.0;
+    }
+}
+
+@media (max-width: 575px) {
+    .actex-nav a {
+        color: white;
+        padding: 10px;
+        opacity: 1.0;
+        text-decoration: none;
+        font-size: 12px;
+    }
+
+    .large-text {
+        font-size: 24px;
+    }
+
+    .medium-text {
+        font-size: 18px;
+    }
+
+    .small-text {
+        font-size: 12px;
+    }
+
+    #examModal>div.modal-dialog {
+        top: 80px;
+    }
+}
+
+@media (min-width: 576px) {
+    .large-text {
+        font-size: 24px;
+    }
+
+    .medium-text {
+        font-size: 18px;
+    }
+
+    .small-text {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .actex-nav a {
+        font-size: 18px;
+    }
+
+    .large-text {
+        font-size: 24px;
+    }
+
+    .medium-text {
+        font-size: 18px;
+    }
+
+    .small-text {
+        font-size: 12px;
+    }
+
+    #examModal>div.modal-dialog {
+        top: 80px;
+        right: 20%;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .large-text {
+        font-size: 32px;
+    }
+
+    .medium-text {
+        font-size: 24px;
+    }
+
+    .small-text {
+        font-size: 18px;
+    }
+
+    #examModal>div.modal-dialog {
+        top: 80px;
+        right: 20%;
+    }
+}
+
+
+@media (min-width: 1200px) {
+
+    .actex-nav a {
+        font-size: 24px;
+    }
+
+    .large-text {
+        font-size: 32px;
+    }
+
+    .medium-text {
+        font-size: 24px;
+    }
+
+    .small-text {
+        font-size: 18px;
+    }
+}
+
+
+@media (min-width: 1400px) {
+    .actex-nav a {
+        font-size: 24px;
+    }
+}
+
+.vh-75 {
+    height: 75vh;
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: var(--gray);
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px var(--gray);
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}

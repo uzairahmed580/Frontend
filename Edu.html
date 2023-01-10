@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>ACTEX Learning - Edu</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.jpg" rel="icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+    <link href="assets/css/site.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+
+    </header>
+
+    <div class="row position-relative actex-nav g-0">
+        <div class="d-flex justify-content-between">
+            <div class="d-flex flex-column justify-content-center">
+                <div class="d-flex logo-header-class align-items-center p-4">
+                    <a href="index.html"><img src="assets/img/Circle_Logo_transparent 1.png" alt="ACTEX Logo"><span
+                            class="d-none d-sm-block large-text">ACTEX Learning</span></a>
+                </div>
+            </div>
+            <div class="d-flex flex-column">
+                <div class="d-inline-flex align-items-center">
+                    <a class="text-center" href="/">Actuarial University</a>
+                    <a class="text-center" role="button">About Us</a>
+                    <a class="text-center" role="button">My Account</a>
+                    <a class="text-center" role="button">Support</a>
+                </div>
+                <div class="d-flex">
+                    <div class="d-inline-flex align-items-center p-2">
+                        <a role="button" data-bs-toggle="modal" data-bs-target="#examModal"
+                            data-backdrop="false">Exam</a>
+                        <svg fill="none" version="1.1" viewBox="0 0 13 8" xmlns="http://www.w3.org/2000/svg" width="13"
+                            height="8" data-bs-toggle="modal" data-bs-target="#examModal">
+                            <path
+                                d="m.33581 2.191 5.3026 5.4302c.1149.12004.25161.21531.40224.28034.15062.065015.31218.09849.47535.09849.16318 0 .32474-.033475.47536-.09849.15062-.065025.28733-.1603.40224-.28034l5.2408-5.4302c.11579-.11905.20779-.2607.27055-.41677.062768-.15606.095005-.32346.095005-.49252 0-.16907-.03224-.33647-.09501-.49253s-.15476-.29771-.27055-.41677c-.23158-.23853-.54492-.37242-.87141-.37242-.32659 0-.63983.13389-.87142.37242l-4.3756 4.5337-4.3756-4.5337c-.23022-.2366-.54097-.36999-.86523-.3714-.16266-.00097397-.32392.03133-.47452.095061-.15059.063735-.28757.15765-.40306.27634-.11999.11477-.21684.25305-.28495.40682-.068115.15379-.10614.32003-.11189.48912-.0057465.1691.020904.33771.07841.49607.057506.15836.14473.30335.25663.42658z"
+                                fill="#fff" style="fill: #fff"></path>
+                        </svg>
+                    </div>
+                    <div class="d-inline-flex align-items-center p-2 flex-grow-1">
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="d-inline-flex align-items-center p-2 position-relative">
+                        <a role="button" id="cartButton">
+                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M23.3751 17.3333H6.45842C6.13795 17.3333 5.8306 17.206 5.60399 16.9794C5.37739 16.7528 5.25008 16.4455 5.25008 16.125C5.25008 15.8045 5.37739 15.4972 5.60399 15.2706C5.8306 15.044 6.13795 14.9167 6.45842 14.9167H19.0734C19.8814 14.9167 20.6662 14.6468 21.3032 14.1499C21.9403 13.6529 22.3931 12.9574 22.5897 12.1737L24.5834 4.33166C24.6287 4.15332 24.6326 3.967 24.5949 3.78691C24.5572 3.60682 24.4789 3.43771 24.3659 3.29249C24.2484 3.14354 24.0975 3.02436 23.9253 2.94459C23.7532 2.86481 23.5647 2.8267 23.3751 2.83332H6.16842C5.91912 2.1282 5.45783 1.51745 4.84779 1.08479C4.23774 0.652135 3.50881 0.418758 2.76091 0.416656H1.62508C1.30461 0.416656 0.997267 0.543963 0.770661 0.770569C0.544054 0.997176 0.416748 1.30452 0.416748 1.62499C0.416748 1.94546 0.544054 2.2528 0.770661 2.47941C0.997267 2.70602 1.30461 2.83332 1.62508 2.83332H2.76091C3.03694 2.82528 3.30739 2.91203 3.52725 3.07911C3.7471 3.2462 3.90309 3.48356 3.96925 3.75166L4.04175 4.33166L6.13216 12.5C5.17075 12.5433 4.26591 12.9667 3.61668 13.6771C2.96745 14.3875 2.62703 15.3267 2.67029 16.2881C2.71355 17.2495 3.13696 18.1544 3.84737 18.8036C4.55779 19.4528 5.497 19.7933 6.45842 19.75H6.67591C6.47719 20.2975 6.41333 20.8849 6.48975 21.4623C6.56617 22.0398 6.78061 22.5903 7.11492 23.0673C7.44924 23.5443 7.89357 23.9337 8.4103 24.2025C8.92703 24.4714 9.50093 24.6117 10.0834 24.6117C10.6659 24.6117 11.2398 24.4714 11.7565 24.2025C12.2733 23.9337 12.7176 23.5443 13.0519 23.0673C13.3862 22.5903 13.6007 22.0398 13.6771 21.4623C13.7535 20.8849 13.6896 20.2975 13.4909 19.75H16.3426C16.1439 20.2975 16.08 20.8849 16.1564 21.4623C16.2328 22.0398 16.4473 22.5903 16.7816 23.0673C17.1159 23.5443 17.5602 23.9337 18.077 24.2025C18.5937 24.4714 19.1676 24.6117 19.7501 24.6117C20.3326 24.6117 20.9065 24.4714 21.4232 24.2025C21.9399 23.9337 22.3843 23.5443 22.7186 23.0673C23.0529 22.5903 23.2673 22.0398 23.3438 21.4623C23.4202 20.8849 23.3563 20.2975 23.1576 19.75H23.3751C23.6956 19.75 24.0029 19.6227 24.2295 19.3961C24.4561 19.1695 24.5834 18.8621 24.5834 18.5417C24.5834 18.2212 24.4561 17.9138 24.2295 17.6872C24.0029 17.4606 23.6956 17.3333 23.3751 17.3333ZM21.8284 5.24999L20.2455 11.5817C20.1793 11.8498 20.0233 12.0871 19.8035 12.2542C19.5836 12.4213 19.3132 12.508 19.0372 12.5H8.60925L6.79675 5.24999H21.8284ZM10.0834 22.1667C9.84443 22.1667 9.61081 22.0958 9.4121 21.963C9.21339 21.8302 9.05852 21.6415 8.96706 21.4207C8.8756 21.1999 8.85168 20.957 8.8983 20.7226C8.94492 20.4882 9.06001 20.2729 9.22899 20.1039C9.39798 19.9349 9.61329 19.8198 9.84768 19.7732C10.0821 19.7266 10.325 19.7505 10.5458 19.842C10.7666 19.9334 10.9553 20.0883 11.0881 20.287C11.2209 20.4857 11.2917 20.7193 11.2917 20.9583C11.2917 21.2788 11.1644 21.5861 10.9378 21.8127C10.7112 22.0394 10.4039 22.1667 10.0834 22.1667ZM19.7501 22.1667C19.5111 22.1667 19.2775 22.0958 19.0788 21.963C18.8801 21.8302 18.7252 21.6415 18.6337 21.4207C18.5423 21.1999 18.5183 20.957 18.565 20.7226C18.6116 20.4882 18.7267 20.2729 18.8957 20.1039C19.0646 19.9349 19.28 19.8198 19.5143 19.7732C19.7487 19.7266 19.9917 19.7505 20.2125 19.842C20.4333 19.9334 20.622 20.0883 20.7548 20.287C20.8875 20.4857 20.9584 20.7193 20.9584 20.9583C20.9584 21.2788 20.8311 21.5861 20.6045 21.8127C20.3779 22.0394 20.0706 22.1667 19.7501 22.1667Z"
+                                    fill="white"></path>
+                            </svg>
+                        </a>
+                        <div class="cart d-none">
+                            <div class="d-flex">
+                                <div class="d-flex flex-column justify-content-center w-50">
+                                    <img class="img-fluid"
+                                        src="https://archimediaadvantage.blob.core.windows.net/images/1P-ACT-18SSM_IMAGE.jpg"
+                                        alt="">
+                                </div>
+                                <div class="w-50 p-4">
+                                    <p class="medium-text black">Study Program for SOA Exam P</p>
+                                    <p class="small-text black">Digital 6-Month License Printed Add On</p>
+                                    <p class="small-text black">$194.00</p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-evenly">
+                                <a role="button" class="actex-btn background-blue black">View Cart</a>
+                                <a role="button" class="actex-btn background-yellow black">Checkout</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Header -->
+
+    <section id="breadcrumb">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Educational Community</li>
+            </ol>
+        </nav>
+
+    </section>
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="about-hero d-flex align-items-center">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 hero-img aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="assets/img/Edu-Header.png" class="img-fluid animated" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <a href="#second-section"><img class="arrow-top" src="assets/img/arrow.png"></a>
+
+    <!-- ======= about-Second Section ======= -->
+    <section id="second-section" class="About-section-Blue "
+        style="background-image: url(assets/img/About-section-Blue.png);">
+        <div class="container-fluid">
+            <div class="row second-sec">
+                <div class="col-lg-12">
+                    <div class="text">
+                        <h4>Network of Experts</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                            anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Semper eget duis at tellus at urna. Urna
+                            id volutpat lacus laoreet non curabitur gravida arcu. Learn more about our instructors
+                            below.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ======= Third Blue Section ======= -->
+    <section id="second-section" class="Edu-section-Blue edu-third-section">
+        <div class="container-fluid">
+            <div class="row second-sec">
+                <div class="col-lg-3 img-col">
+                    <img src="assets/img/Ellipse-23.png">
+                </div>
+                <div class="col-lg-9">
+                    <div class="text">
+                        <p><span>Professor Sam Broverman, PhD, ASA,</span> brings 30+ years of university and exam prep
+                            teaching experience to bear to ensure that purchasers of this manual gain a thorough
+                            understanding of all the topics covered on the exam syllabus. He has been a Professor of
+                            Actuarial Mathematics since 1978, first at The University of Texas at Austin until 1980 and
+                            since then at the University of Toronto. Professor Broverman is an ACTEX author who has
+                            written numerous textbooks and study guides widely used by students preparing for actuarial
+                            exams.</p>
+                        <ul>
+                            <li><a href="#">Exam P</a></li>
+                            <li><a href="#">Exam FAM</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= Blue Section ======= -->
+    <section id="second-section" class="About-section-Blue Edu-section-Blue"
+        style="background-image: url(assets/img/Ellipse-24.png);">
+        <div class="container-fluid">
+            <div class="row second-sec">
+                <div class="col-lg-9">
+                    <div class="text">
+                        <p><span>Johnny Li, PhD, FSA</span> is a Professor and the Holder of the Munich Re Chair in
+                            Predictive Analytics at the University Of Waterloo, Canada. His current teaching and
+                            research focus on the interface between actuarial science and predictive analytics. Over the
+                            years, his research contributions have led to several prestigious awards, including the
+                            Society of Actuaries (SOA) Redington Prize, the SOA Edward A. Lew Award and the SCOR
+                            Actuarial Award in Asia.</p>
+                        <ul>
+                            <li><a href="#">Exam FAM</a></li>
+                            <li><a href="#">Exam SRM</a></li>
+                            <li><a href="#">ATPA</a></li>
+                            <li><a href="#">VEE</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 img-col">
+                    <img src="assets/img/Ellipse-25.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= Third Blue Section ======= -->
+    <section id="second-section" class="Edu-section-Blue edu-third-section">
+        <div class="container-fluid">
+            <div class="row second-sec">
+                <div class="col-lg-3 img-col">
+                    <img src="assets/img/Ellipse-23.png">
+                </div>
+                <div class="col-lg-9">
+                    <div class="text">
+                        <p><span>Professor Sam Broverman, PhD, ASA,</span> brings 30+ years of university and exam prep
+                            teaching experience to bear to ensure that purchasers of this manual gain a thorough
+                            understanding of all the topics covered on the exam syllabus. He has been a Professor of
+                            Actuarial Mathematics since 1978, first at The University of Texas at Austin until 1980 and
+                            since then at the University of Toronto. Professor Broverman is an ACTEX author who has
+                            written numerous textbooks and study guides widely used by students preparing for actuarial
+                            exams.</p>
+                        <ul>
+                            <li><a href="#">Exam P</a></li>
+                            <li><a href="#">Exam FAM</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= Blue Section ======= -->
+    <section id="second-section" class="About-section-Blue Edu-section-Blue"
+        style="background-image: url(assets/img/Ellipse-24.png);">
+        <div class="container-fluid">
+            <div class="row second-sec">
+                <div class="col-lg-9">
+                    <div class="text">
+                        <p><span>Johnny Li, PhD, FSA</span> is a Professor and the Holder of the Munich Re Chair in
+                            Predictive Analytics at the University Of Waterloo, Canada. His current teaching and
+                            research focus on the interface between actuarial science and predictive analytics. Over the
+                            years, his research contributions have led to several prestigious awards, including the
+                            Society of Actuaries (SOA) Redington Prize, the SOA Edward A. Lew Award and the SCOR
+                            Actuarial Award in Asia.</p>
+                        <ul>
+                            <li><a href="#">Exam FAM</a></li>
+                            <li><a href="#">Exam SRM</a></li>
+                            <li><a href="#">ATPA</a></li>
+                            <li><a href="#">VEE</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 img-col">
+                    <img src="assets/img/Ellipse-25.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= Third Blue Section ======= -->
+    <section id="second-section" class="Edu-section-Blue edu-third-section">
+        <div class="container-fluid">
+            <div class="row second-sec">
+                <div class="col-lg-3 img-col">
+                    <img src="assets/img/Ellipse-23.png">
+                </div>
+                <div class="col-lg-9">
+                    <div class="text">
+                        <p><span>Professor Sam Broverman, PhD, ASA,</span> brings 30+ years of university and exam prep
+                            teaching experience to bear to ensure that purchasers of this manual gain a thorough
+                            understanding of all the topics covered on the exam syllabus. He has been a Professor of
+                            Actuarial Mathematics since 1978, first at The University of Texas at Austin until 1980 and
+                            since then at the University of Toronto. Professor Broverman is an ACTEX author who has
+                            written numerous textbooks and study guides widely used by students preparing for actuarial
+                            exams.</p>
+                        <ul>
+                            <li><a href="#">Exam P</a></li>
+                            <li><a href="#">Exam FAM</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= Blue Section ======= -->
+    <section id="second-section" class="About-section-Blue Edu-section-Blue"
+        style="background-image: url(assets/img/Ellipse-24.png);">
+        <div class="container-fluid">
+            <div class="row second-sec">
+                <div class="col-lg-9">
+                    <div class="text">
+                        <p><span>Johnny Li, PhD, FSA</span> is a Professor and the Holder of the Munich Re Chair in
+                            Predictive Analytics at the University Of Waterloo, Canada. His current teaching and
+                            research focus on the interface between actuarial science and predictive analytics. Over the
+                            years, his research contributions have led to several prestigious awards, including the
+                            Society of Actuaries (SOA) Redington Prize, the SOA Edward A. Lew Award and the SCOR
+                            Actuarial Award in Asia.</p>
+                        <ul>
+                            <li><a href="#">Exam FAM</a></li>
+                            <li><a href="#">Exam SRM</a></li>
+                            <li><a href="#">ATPA</a></li>
+                            <li><a href="#">VEE</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 img-col">
+                    <img src="assets/img/Ellipse-25.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= Study Tool Section ======= -->
+    <section id="score-sec">
+        <div class="container-fluid" data-aos="fade-up">
+
+            <div class="row score-col">
+                <div class="col-lg-6 pt-4 pt-lg-0 content aos-init aos-animate" data-aos="fade-left"
+                    data-aos-delay="100">
+                    <h3>Study Tools for All</h3>
+                    <p>We provide you with all the options you need to find the tools that work best for you.</p>
+                    <ul>
+                        <li><a href="#">Learn More</a></li>
+                        <li><a href="#"><span><img src="assets/img/screen.png"></span>Study On Your Web Browser</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#"><span><img src="assets/img/apple.png"></span>Find us on the App Store</a></li>
+                        <li><a href="#"><span><img src="assets/img/playstore.png"></span>Get it On Google Play</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 d-flex align-items-center aos-init aos-animate" data-aos="fade-right"
+                    data-aos-delay="100">
+                    <img src="assets/img/laptop.png" class="img-fluid" alt="">
+                </div>
+
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container-fluid">
+                <div class="footer-bottom clearfix">
+                    <div class="logo-footer">
+                        <img src="assets/img/Main Logo.png">
+                    </div>
+                    <div class="credits footer-newsletter">
+                        <form action="" method="post">
+                            <input type="email" name="email"><input type="submit" value="Subscribe">
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>About Us</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Educational Community </a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Benefit Corporation</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Innovation & Expertise</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">ACTEX Impact Report</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Professional Integrity</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>My Account</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">My Profile</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">iPass Points</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Order History</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Payments & Addresses</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Actuarial University</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Hours of Operation</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Student FAQs & Eureka</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Return Addresses</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Pass Guarantee</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Professor Support</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Errata</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Contact Us</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="tel:(800)282-2839">(800) 282 -2839</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a class="number-ft" href="tel:(860)379-5470">(860)
+                                    379-5470</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a class="email-ft"
+                                    href="mailto:support@actexmadriver.com">support@actexmadriver.com</a></li>
+                        </ul>
+                        <div class="social-links mt-3">
+                            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                            <a href="#" class="google-plus"><i class="bx bxl-youtube"></i></a>
+                            <a href="#" class="google-plus"><i class='bx bxs-envelope'></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer><!-- End Footer -->
+
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
